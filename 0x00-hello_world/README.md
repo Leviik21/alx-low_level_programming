@@ -1,1 +1,1 @@
- a script that generates the assembly code (Intel syntax)
+a C program that prints exactly
