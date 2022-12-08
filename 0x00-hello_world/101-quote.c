@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <uniatd.h>
 /**
  * main - Entry point
  *
