@@ -3,17 +3,16 @@
 
 
 /**
- * main - check the code.
+ * main - function that prints uppercase
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    char c;
+	int _isupper(int c);
 
-    c = 'A';
-    printf("%c: %d\n", c, _isupper(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isupper(c));
-    return (0);
+	if(ch >= 'A' && ch <= 'Z')
+	return (1);
+
+	return (0);
 }
