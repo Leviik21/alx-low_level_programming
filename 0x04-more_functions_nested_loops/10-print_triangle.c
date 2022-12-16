@@ -1,37 +1,28 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - prints the number from 1 - 100, but for mult of 3 & 5 print Fizz Buzz
- *
- * Return: Always 0 (Success)
-**/
-
-int main(void)
+*print_triangle - prints a triangle
+*@size:size parameter of triangle
+*Return:returns nothing
+*/
+void print_triangle(int size)
 {
-	int i;
+int inc1, inc2;
 
-	for (i = 1 ; i < 100 ; i++)
-	{
-		if ((i % 3) == 0 && (i % 5) == 0)
-		{
-			printf("FizzBuzz ");
-		}
-		else if (i % 3 == 0)
-		{
-			printf("Fizz ");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("Buzz ");
-		}
-		else
-		{
-		printf("%d ", i);
-		}
-	}
+if (size > 0)
+{
+for (inc1 = 1; inc1 <= size; inc1++)
+{
+for ((inc2 = size - inc1); inc2 > 0; inc2--)
+_putchar(' ');
 
-	printf("Buzz");
-	printf("\n");
+for (inc2 = 0; inc2 < inc1; inc2++)
+_putchar('#');
 
-	return (0);
+if (inc1 == size)
+continue;
+
+_putchar('\n');
+}
+}
+_putchar('\n');
 }
