@@ -2,7 +2,7 @@
 /**
 * main - a function that takes a pointer to an int
 *
-* Return: Always 0.
+* Return : nothing
 */
 
 void reset_to_98(int *n);
